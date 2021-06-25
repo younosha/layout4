@@ -1,0 +1,366 @@
+.navWrapper {
+  width: 100%;
+  background-color: #373a3c;
+}
+.navContent {
+  max-width: 1100px;
+  margin: auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+.links {
+  display: flex;
+  align-items: center;
+}
+.link {
+  display: flex;
+  align-items: center;
+  color: rgba(255, 255, 255, 0.5);
+  margin-left: 20px;
+  font-size: 20px;
+  line-height: 16px;
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+}
+.shape {
+  margin-left: 5px;
+}
+.input {
+  padding: 7px;
+  margin-left: 20px;
+  border-radius: 4px;
+  border: none;
+}
+.profile {
+  display: flex;
+  align-items: center;
+  margin-left: 20px;
+}
+.linkProfile {
+  display: flex;
+  align-items: center;
+  color: rgba(255, 255, 255, 0.5);
+  font-size: 20px;
+  line-height: 16px;
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+}
+.bgPicture {
+  background-image: url(./img/Star-Wars-Battlefront-II-combat.svg);
+  background-size: cover;
+  width: 100%;
+  height: 700px;
+}
+.bgPictureContent {
+  max-width: 1100px;
+  margin: auto;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+.titleAndBtns {
+  margin-right: 150px;
+  margin-top: 180px;
+}
+.btns {
+  margin-top: 140px;
+}
+.title {
+  font-size: 36px;
+  line-height: 42px;
+  color: white;
+}
+.btnWatch {
+  background: #8dd83d;
+  border-radius: 4px;
+  border: none;
+  color: white;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  font-size: 16px;
+  line-height: 21px;
+  cursor: pointer;
+}
+.btnExplore {
+  background: linear-gradient(180deg, #686c6f 0%, #373a3c 100%);
+  border-radius: 4px;
+  border: none;
+  color: white;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  font-size: 16px;
+  line-height: 21px;
+  margin-left: 20px;
+  cursor: pointer;
+}
+.theBestValue {
+  width: 100%;
+  background: linear-gradient(180deg, #686c6f 0%, #373a3c 100%);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.cardsBlock {
+  display: flex;
+  align-items: center;
+  margin-bottom: 150px;
+}
+.theBestValueText {
+  text-align: center;
+  font-size: 48px;
+  line-height: 56px;
+  color: white;
+}
+.xLogo {
+  margin-top: 60px;
+}
+.card {
+  background-color: white;
+  margin-left: 20px;
+}
+.card1 {
+  background-color: white;
+}
+
+.afterLogo {
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-bottom: 25px;
+}
+.titleCard {
+  color: #435766;
+  font-size: 18px;
+  line-height: 21px;
+}
+.title2 {
+  font-size: 24px;
+  line-height: 28px;
+  color: #435766;
+}
+.btnCard {
+  padding: 20px;
+  color: #ffffff;
+  font-size: 16px;
+  line-height: 21px;
+  background: #8dd83d;
+  border-radius: 4px;
+  border: none;
+  width: 100%;
+  cursor: pointer;
+}
+.cardLogoBlock2 {
+  background: #fafafa;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-top: 59px;
+  padding-bottom: 64px;
+  padding-left: 55px;
+  padding-right: 55px;
+}
+.cardLogoBlock3 {
+  background: #fafafa;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-top: 35px;
+  padding-bottom: 35px;
+  padding-left: 60px;
+  padding-right: 60px;
+}
+.gamesBlock {
+  background-image: url(./img/Rectangle.svg);
+  background-size: cover;
+  width: 100%;
+}
+.btnGamesBlock {
+  margin-top: 60px;
+  margin-bottom: 140px;
+}
+.btnXboxStore {
+  background: linear-gradient(180deg, #686c6f 0%, #373a3c 100%);
+  border-radius: 4px;
+  font-size: 21px;
+  line-height: 21px;
+  color: white;
+  border: none;
+  padding: 20px;
+  cursor: pointer;
+}
+.gamesBclockContent {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: auto;
+  max-width: 1100px;
+}
+.cardsGames {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.titleGamesBlock {
+  color: #ffffff;
+  font-size: 40px;
+  line-height: 42px;
+  margin-top: 100px;
+  margin-bottom: 50px;
+}
+.imgCardBlockGames {
+  border-radius: 3px;
+}
+.blockXboxDesign {
+  background-image: url(./img/Rectangle2.svg);
+  width: 100%;
+  background-size: cover;
+}
+.blockXboxDesignContent {
+  margin: auto;
+  max-width: 1100px;
+  display: flex;
+  flex-direction: column;
+  padding-top: 115px;
+  padding-bottom: 145px;
+}
+.titleDesignBlock {
+  color: #ffffff;
+  font-size: 48px;
+  line-height: 56px;
+}
+.titleDesignBlock2 {
+  font-size: 24px;
+  line-height: 28px;
+  color: #ffffff;
+}
+.btnYours {
+  background: linear-gradient(180deg, #686c6f 0%, #373a3c 100%);
+  border-radius: 4px;
+  color: white;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  padding-left: 25px;
+  padding-right: 25px;
+  font-size: 16px;
+  line-height: 21px;
+  border: none;
+  cursor: pointer;
+}
+.btnConsoles {
+  background: #8dd83d;
+  border-radius: 4px;
+  color: white;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  padding-left: 25px;
+  padding-right: 25px;
+  font-size: 16px;
+  line-height: 21px;
+  border: none;
+  margin-left: 20px;
+  cursor: pointer;
+}
+.blockXboxBtnDesign {
+  margin-top: 30px;
+}
+.footer {
+  width: 100%;
+  background: #373a3c;
+}
+.footerContent {
+  margin: auto;
+  max-width: 1100px;
+  display: flex;
+  justify-content: space-between;
+  padding-top: 60px;
+  padding-bottom: 50px;
+}
+.titleFooter {
+  font-size: 18px;
+  line-height: 21px;
+  color: #7dd42f;
+}
+.footerLinksBlock {
+  display: flex;
+  flex-direction: column;
+}
+.footerLink {
+  text-decoration: none;
+  color: white;
+  font-size: 18px;
+  line-height: 16px;
+  margin-top: 20px;
+}
+.social {
+  display: flex;
+  align-items: center;
+}
+.twitter {
+  margin-left: 20px;
+}
+.insta {
+  margin-left: 20px;
+}
+.social {
+  margin-top: 30px;
+}
+.line {
+  margin: auto;
+  max-width: 1200px;
+  height: 1px;
+  background-color: gray;
+  margin-top: 10px;
+}
+.footTitles {
+  margin: auto;
+  max-width: 1200px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  color: white;
+}
+@media screen and (max-width: 1200px) {
+  .navContent {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+  .blockXboxDesignContent {
+    padding-left: 20px;
+  }
+  .footerContent {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+  .footTitles {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+}
+@media screen and (max-width: 900px) {
+  .links {
+    flex-direction: column;
+  }
+  .navContent {
+    flex-direction: column;
+  }
+}
+@media screen and (max-width: 1050px) {
+  .cardsBlock {
+    flex-direction: column;
+  }
+  .card {
+    margin-left: 0px;
+    margin-top: 20px;
+  }
+  .cardsGames {
+    flex-direction: column;
+  }
+}
